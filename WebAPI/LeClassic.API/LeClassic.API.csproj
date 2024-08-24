@@ -10,4 +10,11 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\LeClassic.Application\LeClassic.Application.csproj" />
+    <ProjectReference Include="..\..\Core\LeClassic.Domain\LeClassic.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\LeClassic.PostgreSQL\LeClassic.PostgreSQL.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\LeClassic.Services\LeClassic.Services.csproj" />
+  </ItemGroup>
+
 </Project>
